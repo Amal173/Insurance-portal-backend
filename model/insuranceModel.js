@@ -35,7 +35,7 @@ const insuranceSchema = new mongoose.Schema({
     },
     Qualifications: {
         required: true,
-        type: String
+        type: []
     },
     Profession: {
         required: true,
@@ -52,6 +52,10 @@ const insuranceSchema = new mongoose.Schema({
     InsuranceType: {
         required: true,
         type: String
+    },
+    status: {
+        type: String,
+        default: "pending"
     },
 
 })

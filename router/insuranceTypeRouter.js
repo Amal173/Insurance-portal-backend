@@ -1,8 +1,8 @@
-const express=require('express')
+const express = require('express')
 const router = express.Router();
-const { getInsuranceType, createInsuranceType }=require('../controller/insuranceTypes')
+const { getInsuranceType, createInsuranceType } = require('../controller/insuranceTypes')
 
 router.route('/').get(getInsuranceType)
 router.route('/').post(createInsuranceType)
 
-module.exports=router;
+module.exports = router;
