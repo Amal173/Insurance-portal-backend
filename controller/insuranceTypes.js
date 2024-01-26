@@ -29,7 +29,7 @@ const createInsuranceType = async (req, res) => {
 
         const details = InsuranceDetails.map((data) => data)
 
-        const insuranceTypes = await createInsuranceTypeData({ InsuranceDetails: details, insuranceName, Amount })
+        const insuranceTypes = await createInsuranceTypeData({ InsuranceDetails: details, insuranceName, Amount });
 
         res.status(201).json({ insuranceTypes })
     } catch (error) {

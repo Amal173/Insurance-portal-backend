@@ -12,7 +12,7 @@ const insuranceTypeSchema = new mongoose.Schema({
     InsuranceDetails: {
         required: true,
         type: {}
-    },
+    }
 
 })
 

@@ -91,7 +91,7 @@ function calculateAge(dateOfBirth) {
 
     const timeDiff = currentDate - dob;
 
-    const age = Math.floor(timeDiff / (365.25 * 24 * 60 * 60 * 1000));
+    const age = Math.floor(timeDiff / (365.25 * 24 * 60 * 60 * 1000))
 
     return age;
 }

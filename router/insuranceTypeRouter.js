@@ -5,4 +5,4 @@ const { getInsuranceType, createInsuranceType } = require('../controller/insuran
 router.route('/').get(getInsuranceType)
 router.route('/').post(createInsuranceType)
 
-module.exports = router;
+module.exports = router

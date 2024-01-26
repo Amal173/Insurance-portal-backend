@@ -18,4 +18,5 @@ const updateInsuranceData = async ({ id, status }) => {
     return await insurance.findByIdAndUpdate({ _id: id }, { $set: { status: status } });
 }
 
+
 module.exports = { getInsuranceData, createInsuranceData, updateInsuranceData }

@@ -13,4 +13,5 @@ const createInsuranceTypeData = async ({ InsuranceDetails, insuranceName, Amount
 
 }
 
+
 module.exports = { getInsuranceTypeData, createInsuranceTypeData }
